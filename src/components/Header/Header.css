@@ -1,0 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+.header{
+  background-color: green;
+  text-align: center;
+  height: 100%;
+  font-family: 'Sigmar One', cursive;
+  font-size: 200%;
+}
