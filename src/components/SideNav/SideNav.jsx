@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './SideNav.css'
+import styles from './SideNav.scss'
 export default function SideNav() {
   return (
     <div className={styles.sidebar}>

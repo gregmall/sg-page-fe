@@ -5,7 +5,7 @@ import {
   Switch
 } from 'react-router-dom';
 import Home from '../Home/Home';
-import styles from './App.css'
+import styles from './App.scss'
 import Header from '../Header/Header';
 import SideNav from '../SideNav/SideNav';
 
