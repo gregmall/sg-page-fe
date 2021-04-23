@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <>
     <header className = {styles.header}>
-       <h2>Synthesis Glass</h2>
+    <h1>Synthesis Glass</h1>
     </header>
     </>
   )
