@@ -1,24 +1,134 @@
 
-@import url('https://fonts.googleapis.com/css?family=Pirata+One|Rubik:900');
+@import url('https://fonts.googleapis.com/css2?family=Asset&family=Londrina+Shadow&family=Major+Mono+Display&family=Monoton&family=Mrs+Sheppards&family=Rowdies:wght@700&family=Russo+One&display=swap');
 .header{
-  background-color: rgb(126, 241, 145);
+
+
+  display: flex;
+  position: fixed;
+  justify-content: flex-end;
   color: #fff;
+  
+  top:0;
+  right:0;
   font-size: 2em;
   text-align: center;
   font-weight: bold;
-  font-family: Helvetica;
-  text-shadow: 
-    0 1px 0 #ccc, 
-    0 2px 0 #c9c9c9, 
-    0 3px 0 #bbb, 
-    0 4px 0 #b9b9b9, 
-    0 5px 0 #aaa, 
-    0 6px 1px rgba(0,0,0,.1), 
-    0 0 5px rgba(0,0,0,.1), 
-    0 1px 3px rgba(0,0,0,.3), 
-    0 3px 5px rgba(0,0,0,.2), 
-    0 5px 10px rgba(0,0,0,.25), 
-    0 10px 10px rgba(0,0,0,.2), 
-    0 20px 20px rgba(0,0,0,.15);
+
+    h1{
+      margin-right: 2vw;
+      text-shadow: 2px 2px black;
+    }
+    b:hover{
+      color:white;
+    }
+    img{
+      width: 15%;
+      height: 15%;
+      position:fixed;
+      justify-self: left;
+      left:50px;
+      top:20px;
+    }
+    background: 50% 100% / 50% 50% no-repeat
+    radial-gradient(ellipse at bottom, #fff, transparent, transparent);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+   
+    font-family: 'Rowdies', cursive;
+    animation: reveal 3000ms ease-in-out forwards 200ms,
+    glow 2500ms linear infinite 2000ms;
+    
+    @keyframes reveal {
+      80%{
+        letter-spacing: 8px;
+      }
+      100% {
+        background-size: 300% 300%;
+      }
+    }
+}
+@media (max-width: 850px){
+ img{
+   display:none;
+ }
+  
 }
 
+.shimmer {
+  /* the shimmer magic */
+  background: -webkit-gradient(linear,left top,right top,from(#7c0747),to(#7c0747),color-stop(.5,#fff));
+  background: -moz-gradient(linear,left top,right top,from(#7c0747),to(#7c0747),color-stop(.5,#fff));
+  background: gradient(linear,left top,right top,from(#7c0747),to(#7c0747),color-stop(.5,#fff));
+  -webkit-background-size: 125px 100%;
+  -moz-background-size: 125px 100%;
+  background-size: 125px 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-animation-name: shimmer;
+  -moz-animation-name: shimmer;
+  -webkit-animation-name: shimmer;
+  animation-name: shimmer;
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-iteration-count: 3;
+  -moz-animation-iteration-count: 3;
+  -webkit-animation-iteration-count: 3;
+  animation-iteration-count: 3;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-color: #dd1009;
+}
+
+@-moz-keyframes shimmer {
+  0% {
+    background-position: top right;
+  }
+
+  100% {
+    background-position: top left;
+  }
+}
+
+@-webkit-keyframes shimmer {
+  0% {
+    background-position: top right;
+  }
+
+  100% {
+    background-position: top left;
+  }
+}
+
+@-o-keyframes shimmer {
+  0% {
+    background-position: top right;
+  }
+
+  100% {
+    background-position: top left;
+  }
+}
+
+@-ms-keyframes shimmer {
+  0% {
+    background-position: top right;
+  }
+
+  100% {
+    background-position: top left;
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: top right;
+  }
+
+  100% {
+    background-position: top left;
+  }
+}

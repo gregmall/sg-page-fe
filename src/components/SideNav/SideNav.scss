@@ -1,15 +1,16 @@
-
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 
 
 .sidebar {
-  position: relative;
-  width: 180px;
+  position: fixed;
+  width: 15%;
   height: 100vh;
   background: #312450;
-  
-  font-size: 0.65em;
+  opacity: .7;
+  margin-top: 15%;
+  margin-bottom: 200px;
+  font-size: 1vw;
   display: flex;
   flex-direction: column;
 }
@@ -25,7 +26,7 @@
   position: relative;
   margin: 0 15%;
   text-align: right;
-  top: 30%;
+  top: 35%;
   transform: translateY(-50%);
   
   

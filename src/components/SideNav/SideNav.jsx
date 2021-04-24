@@ -4,7 +4,17 @@ export default function SideNav() {
   return (
     <div className={styles.sidebar}>
       <aside>
-        Side shit goes here
+      <nav className={styles.nav}>
+          
+          <ul className={styles.active}>
+            <li><a href="/home">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/glass">Glass</a></li>
+            <li><a href="/buy">Buy</a></li>
+            <li><a href="/contact" target ="_blank">Contact</a></li>
+          </ul>
+        
+        </nav>
       </aside>
     </div>
   )

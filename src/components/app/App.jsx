@@ -15,7 +15,7 @@ export default function App() {
     <Router>
        <Header />
        <SideNav />
-       <Home />
+     
        
     </Router>
     </div>
