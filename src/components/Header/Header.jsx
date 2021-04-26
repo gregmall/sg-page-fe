@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <>
     <header className = {styles.header}>
-      <img src = '/public/assets/star.png' />
+      <img src = '/assets/star.png' />
       <div className={styles.shimmer}>
     <h1>S<b>y</b>nthesis Glass</h1>
     </div>
