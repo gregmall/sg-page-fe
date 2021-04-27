@@ -14,9 +14,26 @@
   display: flex;
   flex-direction: column;
 }
+.footer{
+  position: fixed;
+  width: 100%;
+  top: 85%;
+  height: 20%;
+  background: #312450;
+  opacity: .7;
+
+  font-size: 1vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  visibility: hidden;
+}
 @media (max-width: 602px){
   .sidebar{
   display: none;
+  }
+  .footer{
+    visibility: visible; 
   }
   
 }
@@ -60,4 +77,38 @@
       
     }
     
+  }
+  .navMobile{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+  
+
+
+
+  
+  span {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 3.2em;
+  }
+    
+  a {
+      line-height: 5em;
+      text-transform: uppercase;
+      text-decoration: none;
+      letter-spacing: 0.4em;
+      color: #00ff5e;
+      display: block;
+      transition: all ease-out 300ms;
+    }
+  a:hover{
+      color: white;
+      transform: scale(1.3);
+      transition: 1s ease;
+      
+    }
+
   }
