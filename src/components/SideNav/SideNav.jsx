@@ -12,7 +12,7 @@ export default function SideNav() {
             <li><a href="/about">About</a></li>
             <li><a href="/glass">Glass</a></li>
             <li><a href="https://www.etsy.com/shop/SynthesisGlass" target="blank">Buy</a></li>
-            <li><a href="/contact" target ="_blank">Contact</a></li>
+            <li><a href="/contact">Contact</a></li>
           </ul>
         
         </nav>
