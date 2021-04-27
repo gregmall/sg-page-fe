@@ -25,7 +25,7 @@ export default function SideNav() {
             <span><a href="/about">About</a></span>
             <span><a href="/glass">Glass</a></span>
             <span><a href="https://www.etsy.com/shop/SynthesisGlass" target="blank">Buy</a></span>
-            <span><a href="/contact" target ="_blank">Contact</a></span>
+            <span><a href="/contact" >Contact</a></span>
     </section>
     
     </footer>
